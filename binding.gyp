@@ -24,7 +24,7 @@
         [ 'OS!="mac" and OS!="win"', {
             'include_dirs': [ '/app/.apt/usr/include' ]
           , 'libraries': [ '-ldns_sd'
-                         , '-L/app/.apt/usr/lib/' ]
+                         , '-L.apt/usr/lib/' ]
 
         }]
       , [ 'OS=="mac"', {
